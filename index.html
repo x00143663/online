@@ -63,6 +63,7 @@
   </head>
 
   <body data-spy="scroll" data-target=".navbar" style="background: #f5ffff;">
+   
 
     <!--Navbar-->
     <div id="Header">
@@ -74,9 +75,7 @@
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#About">About</a>
-                </li>
+                
                 <li class="nav-item">
                   <a class="nav-link" href="#Education">Education</a>
                 </li>
@@ -94,7 +93,7 @@
                     <a class="nav-link" href="#Contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Resources">Resources</a>
+                    <a class="nav-link" href="#Resources">Resources & Site map</a>
                 </li>   
               </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -108,7 +107,7 @@
     <div id="bg-img"></div>
    
 <!--About-->
-    <div id="About" class="mt-5">
+    <div id="About" class="mt-5" >
       <div class="container">
         <div class="row">
           <div class ="col">
@@ -116,7 +115,7 @@
               <div class="card bg-white">
                 <div class="card-title my-5">
                   <div class="media">
-                    <img src="img/profile.jpeg" width="250" height="250" class="img-fluid roundet-top mx-5 d-none d-lg-block">
+                    <img src="img/profile.jpeg" width="250" height="250" class="img-fluid roundet-top mx-5 d-none d-lg-block" style="border-radius: 10%;">
                     <div class="media-body">
                       <br>
                       <br>
@@ -125,28 +124,31 @@
                     </div>
                   </div>
                 </div>
-                <p class="text-muted ml-5">Download my Resume by clicking on the download icon.</p>
+                <div class="container mt-5">
+                  <div class ="row">
+                    <div class="col">
+                      
+                      <p class ="lead text-justify">I am currently on 4th year Computer Science Degree at the TU Dublin Tallaght. My goal, is to further my career in the IT industry while constantly learning and improving my already capable skill set. I feel that during this time, in both TU Dublin and at AWS, I have gained the extensive technical, theoretical and practical experience required for a job. I am a fantastic team player with excellent interpersonal and IT based skills. I can also produce the necessary results required when on a deadline, as I have done at AWS. I feel I can be an excellent addition to any team, especially one requiring an ambitious and motivated character.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+                <p class="text-muted ml-5" style="text-align: right;">Download my Resume by clicking on the download icon.</p>
                   <div class="card-footer bg-dark">
                     <a href="https://github.com/x00143663" target="_blank"><i class="fab fa-github fa-2x mx-4"></i></a>
                     <a href="https://linkedin.com/in/nicolaeanastase" target="_blank"><i class="fab fa-linkedin-in fa-2x mx-4 "></i></a>
                     <a href="mailto:anastase.nicolae@gmail.com"><i class="far fa-envelope fa-2x mx-4"></i></a>
-                    <a href="Nicolae Anastase Resume.zip"><i class="fas fa-download fa-2x mx-4"></i></a>
-                    <button type="button" class="btn btn-outline-warning ml-4 mb-4" data-toggle="modal" data-target="#myModal" >Call me!</button>
+                    <a  href="" data-toggle="modal" data-target="#myModal" ><i class="fas fa-phone fa-2x mx-4"></i> </a>
+                    <a href="Nicolae Anastase Resume.zip" style="float: right;"><i class="fas fa-download fa-2x mx-4" ></i></a>
+                    
                   </div>
               </div> 
             </div>
           </div>
         </div>
       </div>
-      <div class="container mt-5">
-        <div class ="row">
-          <div class="col">
-            <span class="bg-danger text-white">About me</span><hr class="bg-danger">
-            <p class ="lead text-justify">I am currently on 4th year Computer Science Degree at the TU Dublin Tallaght. My goal, is to further my career in the IT industry while constantly learning and improving my already capable skill set. I feel that during this time, in both TU Dublin and at AWS, I have gained the extensive technical, theoretical and practical experience required for a job. I am a fantastic team player with excellent interpersonal and IT based skills. I can also produce the necessary results required when on a deadline, as I have done at AWS. I feel I can be an excellent addition to any team, especially one requiring an ambitious and motivated character.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+      
 
     <div class="modal fade" id="myModal" role="dialog">
 				<div class="modal-dialog">
@@ -168,10 +170,14 @@
 				</div>
 			  </div>
 
-
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
     <!--Education-->
-    <div id="Education" class="mt-5">
+    <div id="Education" class="mt-5" style="padding: 80px;">
         <div class="container mt-5">
             <span class="bg-success text-white">Education</span><hr class="bg-success">
           <div class="row">
@@ -180,7 +186,14 @@
                     <div style="padding: 10px 10px 10px 10px;">
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">TU Dublin Tallaght</h3>
+                
+                     <h3><p><b>
+                        <a href="https://tudublin.ie/" target="_blank" >
+                          <img alt="TU" src="img/tudub.png"  width="30" height="30" class="img-fluid mx-auto py-3">
+                        </a>TU Dublin Tallaght</b>
+                      </p>
+                     </h3>
+              
               <div class="subheading mb-3">Bachelor of Science (honours) in Computing</div>
                 <p>Grades for Each Year & semesters</p>
     
@@ -491,7 +504,12 @@
           
                 <div class="resume-item d-flex flex-column flex-md-row">
                 <div class="resume-content mr-auto">
-                        <h3 class="mb-0">St. Conleths College, Newbridge (PLC )</h3>
+                    <h3><p><b>
+                        <a href="http://www.stconlethscc.ie/" target="_blank" >
+                          <img  alt="PLC" src="img/plc.jpg"  width="100" height="100" class="img-fluid mx-auto py-3">
+                        </a>St. Conleths College, Newbridge (PLC )</b>
+                      </p>
+                     </h3>
                         <div class="subheading mb-3">Computer Science FETAC level 6</div>
                         <p>7 Distinction, 1 Merits</p>
                       </div>
@@ -502,7 +520,12 @@
           
                     <div class="resume-item d-flex flex-column flex-md-row">
                       <div class="resume-content mr-auto">
-                        <h3 class="mb-0">VTOS Newbridge co. Kildare</h3>
+                          <h3><p><b>
+                              <a href="http://kildarewicklow.etb.ie/" target="_blank" >
+                                <img  alt="VTOS" src="img/vtos.jpg"  width="80" height="80" class="img-fluid mx-auto py-3">
+                              </a>VTOS Newbridge co. Kildare</b>
+                            </p>
+                           </h3>
                         <div class="subheading mb-3">Computer Systems and Networking FETAC level 5</div>
                         <p>5 Distinction</p>
                       </div>
@@ -519,7 +542,7 @@
       </div>
 
     <!--Experience-->
-    <div id="Experience" class="mt-5">
+    <div id="Experience" class="mt-5" style="padding: 80px;">
         <div class="container mt-5">
             <span class="bg-warning text-white">Experience</span><hr class="bg-warning">
           <div class="row">
@@ -527,8 +550,10 @@
             <div class="col-lg-6">
               <div class="card bg-white ">
               <div style="padding: 10px 10px 10px 10px;">
-                <img src="img/ibm.jpg" width="200" height="80" class="img-fluid mx-auto py-3">
-                <h2>Read More Read Less Button</h2>
+                <p class="text-muted">
+              <a href="https://www.ibm.com/ie-en" target="_blank" ><img border="0" alt="IBM" src="img/ibm.jpg"  width="200" height="80" class="img-fluid mx-auto py-3"></a>
+                (click on picture)</p>
+                <h2>IBM 4-th Year Project</h2>
                 <p class ="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
                 <button class="btn btn-info" onclick="myFunction()" id="myBtn">Read more</button>
               </div>
@@ -538,8 +563,10 @@
             <div class="col-lg-6">
                 <div class="card bg-white ">
                 <div style="padding: 10px 10px 10px 10px;">
-                  <img src="img/aws1.jpg" width="200" height="80" class="img-fluid m-auto py-3">
-                  <h2>Read More Read Less Button</h2>
+                    <p class="text-muted">
+                  <a href="https://aws.amazon.com/events/aws-in-ireland/" target="_blank" ><img border="0" alt="AWS" src="img/aws1.jpg"  width="200" height="80" class="img-fluid mx-auto py-3"></a>
+                  (click on picture)</p>
+                  <h2> AWS Cloud Support Associate Internship</h2>
                   <p class ="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots1">...</span><span id="more1">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
                   <button class="btn btn-info" onclick="myFunction1()" id="myBtn1">Read more</button>
                 </div>
@@ -551,7 +578,7 @@
       </div>
 
     <!--Skills-->
-    <div id="Skills" class="mt-5">
+    <div id="Skills" class="mt-5" style="padding: 80px;">
       <div class="container">
         <span class="bg-primary text-white">My skills</span><hr class="bg-primary">
         <div class="row">
@@ -804,7 +831,7 @@
     </div>
 
     <!--Projects-->
-    <div id="Projects" class="mt-5">
+    <div id="Projects" class="mt-5" style="padding: 80px;">
       <div class="container mt-5">
         <span class="bg-success text-white" >Projects</span><hr class="bg-success">
         <div class="row">
@@ -825,16 +852,18 @@
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <div >
+                       <h2><b>2nd Year Project - Play Framework Application</b></h2>
                       <img class="d-block w-100" src="img/proj1.jpg" >
                       </div>
-                      <div >2nd Year Website</div>
+                      
                       <p>Website done in the Play Framework. A group project where all the work was shared out between three members. This helped me understand how to work in a team. We got a grade B for this project, I took a lot of lessons from this project. Can be viewed <a href="https://github.com/x00143663/Project-Year2" target="_blank">here</a></p>
                     </div>
                     <div class="carousel-item">
                         <div >
+                            <h2><b>3nd Year Project - Data analysis</b></h2>
                         <img class="d-block w-100" src="img/projy2.jpg" >
                         </div>
-                        <div>3nd Year Data analysis</div>
+                        
                         <p>During this project I have to analyze if is posible to make future predictions studying some data about Olympics games results!</p>
                       </div>
                   </div>
@@ -851,9 +880,9 @@
     </div>
 
     <!--Contact-->
-    <div id="Contact" class="mt-5">
+    <div id="Contact" class="mt-5" style="padding: 80px;">
       <div class="container mt-5">
-        <span class="bg-success text-white" >Contact Me</span><hr class="bg-success">
+        <span class="bg-success text-white" >Contact</span><hr class="bg-success">
         <div class="row">
           <div class="col">
             <div class="card bg-white">
@@ -878,10 +907,14 @@
 											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
 											<input type="hidden" name="_subject" value="Enter your subject here">
 											<input type="hidden" name="_next" value="thanks.html">
-
 										</div>
 									</form>
 								</div>
+              </div>
+              <div>
+              <h2>Find my on map</h2>
+              <div style="width: 100%"><iframe width="100%" height="400" src="https://maps.google.com/maps?width=100%&amp;height=400&amp;hl=en&amp;q=12%20castlesize%20drive%20sallins%20ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/coordinates.html">latitude longitude finder</a></iframe></div><br />
+              </div>
               </div>
             </div>
           </div>
@@ -892,17 +925,22 @@
 
     <!--Resources-->
 
-    <div id="Resources" class="mt-5">
+    <div id="Resources" class="mt-5" style="padding: 80px;">
         <div class="container mt-5">
           <span class="bg-info text-white" >Resources</span><hr class="bg-info">
           <div class="row">
             <div class="col">
               <div class="card bg-white">
                 <div class="card-header">
-                  <h4 class="my-4">Resources used:</h4>
+                  
                   <div class="container">
 
                     <table class="table table-responsive ml-4">
+                        <tr>
+                            <td><h2>Resources:</h2></td>
+                            <td>
+                            </td>
+                        </tr>
                       <tr>
                           <td>Navbar</td>
                           <td>
@@ -967,6 +1005,47 @@
                               </a>
                             </td>
                         </tr>
+                        
+                        <tr>
+                            <td><h2>Site map:</h2></td>
+                            <td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a class="nav-link" href="#Education">Education</a></td>
+                            <td> 
+                                <b>This section contains information about completed courses and grades.</b>
+                              </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a class="nav-link" href="#Experience">Experience</a></td>
+                            <td> 
+                                <b>This section contains information about my industry experience.</b>
+                              </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a class="nav-link" href="#Skills">Skills</a></td>
+                            <td> 
+                                <b>This section contains information about tools/technologies I'm well versed in.</b>
+                              </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a class="nav-link" href="#Projects">Projects</a></td>
+                            <td> 
+                                <b>This section contains information about all my relevant projects I've completed to date.</b>
+                              </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a class="nav-link" href="#Contact">Contact</a></td>
+                            <td> 
+                                <b>This section contains my contact information.</b>
+                              </a>
+                            </td>
+                        </tr>
                     </table>
                   </div>
                 </div>
@@ -987,6 +1066,8 @@
         </div>
       </div>
     </div>
+
+    
   </body>
 
 

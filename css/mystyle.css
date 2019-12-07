@@ -113,3 +113,13 @@ margin-top: -200px;
     margin-top: 06px;   
 }
 
+#more {display: none;}
+#more1 {display: none;}
+
+#ibm
+{
+    background-image:"img/ibm.jpg" ; 
+     width:"200" ;
+     height:"80";
+      
+}
