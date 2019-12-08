@@ -149,23 +149,23 @@ margin-top: -200px;
     }
     #name2 {
         
-        animation: bounceIn 2.2s infinite;
-        -webkit-animation: bounceIn 2s infinite; /*Chrome, Safari, Opera*/
+        animation: bounceIn 2s infinite;
+        -webkit-animation: bounceIn 2.2s infinite; /*Chrome, Safari, Opera*/
     }
     #name3 {
         
-        animation: bounceIn 2.4s infinite;
-        -webkit-animation: bounceIn 2s infinite; /*Chrome, Safari, Opera*/
+        animation: bounceIn 2s infinite;
+        -webkit-animation: bounceIn 2.4s infinite; /*Chrome, Safari, Opera*/
     }
     #name4 {
         
-        animation: bounceIn 2.6s infinite;
-        -webkit-animation: bounceIn 2s infinite; /*Chrome, Safari, Opera*/
+        animation: bounceIn 2s infinite;
+        -webkit-animation: bounceIn 2.6s infinite; /*Chrome, Safari, Opera*/
     }
     #name5 {
         
-        animation: bounceIn 2.8s infinite;
-        -webkit-animation: bounceIn 2s infinite; /*Chrome, Safari, Opera*/
+        animation: bounceIn 2s infinite;
+        -webkit-animation: bounceIn 2.8s infinite; /*Chrome, Safari, Opera*/
     }
 
     
