@@ -1,11 +1,11 @@
 body
 {
-    background: rgb(103, 124, 9);
+    background: #acd7ff;
 }
 
 #Header a:hover
 {
-color: rgb(158, 27, 27);
+color: #c078fc;
 }
 
 
@@ -61,7 +61,7 @@ margin-top: -200px;
 
 #Education .card
 {
-    border-top: 03px solid rgb(146, 240, 151)
+    border-top: 03px solid #92f097
 }
 
 #Experience span
