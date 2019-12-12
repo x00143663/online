@@ -18,7 +18,7 @@ TxtRotate.prototype.tick = function () {
     this.txt = fullTxt.substring(0, this.txt.length + 1)
   }
 
-  this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>'
+  this.el.innerHTML = '<span  class="wrap">' + this.txt + '</span>'
 
   var that = this
   var delta = 300 - Math.random() * 100
@@ -75,7 +75,7 @@ function myFunction () {
 
 // btn1
 
-function myFunction1 () {
+function myFunction1() {
   var dots = document.getElementById('dots1')
   var moreText = document.getElementById('more1')
   var btnText = document.getElementById('myBtn1')
@@ -91,11 +91,10 @@ function myFunction1 () {
   }
 }
 
-jQuery(document).ready(function(){
-    jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},6000);
-	});
-});
-
+jQuery(document).ready(function() {
+  jQuery('.skillbar').each(function() {
+    jQuery(this).find('.skillbar-bar').animate({
+      width:jQuery(this).attr('data-percent')
+    }, 6000)
+  })
+})
