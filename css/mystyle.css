@@ -9,6 +9,10 @@ body
 color: #c078fc;
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
 
 
 #About
