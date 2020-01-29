@@ -69,7 +69,7 @@
               <div class="card bg-white">
                 <div class="card-title my-5">
                   <div class="media">
-                    <img src="img/profile1.jpg" width="200" height="200" class="img-fluid roundet-top mx-5 d-none d-lg-block" style="border-radius: 15%;">
+                    <img src="img/profile1.jpg" alt="Avatar" width="200" height="200" class="img-fluid roundet-top mx-5 d-none d-lg-block" style="border-radius: 15%;">
                     <div class="media-body">
                       <br>
                       <br>
@@ -90,11 +90,11 @@
               
                 <p class="text-muted ml-5" style="text-align: right;">Download my Resume by clicking on the download icon.</p>
                   <div class="card-footer bg-dark">
-                    <a href="https://github.com/x00143663" target="_blank"><i class="fab fa-github fa-2x mx-4"></i></a>
-                    <a href="https://linkedin.com/in/nicolaeanastase" target="_blank"><i class="fab fa-linkedin-in fa-2x mx-4 "></i></a>
-                    <a href="mailto:anastase.nicolae@gmail.com"><i class="far fa-envelope fa-2x mx-4"></i></a>
-                    <a  href="" data-toggle="modal" data-target="#myModal" ><i class="fas fa-phone fa-2x mx-4"></i> </a>
-                    <a href="Nicolae Anastase Resume.zip" style="float: right;"><i class="fas fa-download fa-2x mx-4" ></i></a>
+                    <a href="https://github.com/x00143663" target="_blank" rel="noopener noreferrer"><em class="fab fa-github fa-2x mx-4"></em></a>
+                    <a href="https://linkedin.com/in/nicolaeanastase" target="_blank" rel="noopener noreferrer"><em class="fab fa-linkedin-in fa-2x mx-4 "></em></a>
+                    <a href="mailto:anastase.nicolae@gmail.com"><em class="far fa-envelope fa-2x mx-4"></em></a>
+                    <a  href="" data-toggle="modal" data-target="#myModal" ><em class="fas fa-phone fa-2x mx-4"></em> </a>
+                    <a href="Nicolae Anastase Resume.zip" style="float: right;"><em class="fas fa-download fa-2x mx-4" ></em></a>
                     
                   </div>
               </div> 
@@ -141,8 +141,8 @@
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
                 
-                     <h3><p><b>
-                        <a href="https://tudublin.ie/" target="_blank" >
+                     <h3><p><strong>
+                        <a href="https://tudublin.ie/" target="_blank"  rel="noopener noreferrer" >
                           <img alt="TU" src="img/tudub.png"  width="30" height="30" class="img-fluid mx-auto py-3">
                         </a>TU Dublin Tallaght</b>
                       </p>
@@ -176,12 +176,12 @@
 
                   <div class="col-md-6">
                       <h5>Semester 8</h5>
-                      <table class="table">
+                      <table class="table"> <!-- Noncompliant -->
                         <thead>
                   <tr class="bg-primary">
-                            <th style="color:White;">#</th>
-                            <th style="color:White;">Module Name</th>
-                            <th style="color:White;">Grade</th>
+                            <th scope="col|row|colgroup|rowgroup" style="color:White;">#</th>
+                            <th scope="col|row|colgroup|rowgroup" style="color:White;">Module Name</th>
+                            <th scope="col|row|colgroup|rowgroup" style="color:White;">Grade</th>
                           </tr>
                         </thead>
                  <tbody>
@@ -217,12 +217,12 @@
             
                   <div class="col-md-6">
                           <h5>Semester 7</h5>
-                          <table class="table">
+                          <table class="table"><!-- Noncompliant -->
                             <thead>
                               <tr class="bg-primary">
-                                <th style="color:White;">#</th>
-                                <th style="color:White;">Module Name</th>
-                                <th style="color:White;">Grade</th>
+                                <th scope="col|row|colgroup|rowgroup" style="color:White;">#</th>
+                                <th scope="col|row|colgroup|rowgroup" style="color:White;">Module Name</th>
+                                <th scope="col|row|colgroup|rowgroup" style="color:White;">Grade</th>
                               </tr>
                             </thead>
                             <tbody>
@@ -273,12 +273,12 @@
 
                 <div class="col-md-6">
                     <h5>Semester 6</h5>
-                    <table class="table">
+                    <table class="table"><!-- b -->
                       <thead>
                 <tr class="bg-primary">
-                          <th style="color:White;">#</th>
-                          <th style="color:White;">Module Name</th>
-                          <th style="color:White;">Grade</th>
+                          <th scope="col|row|colgroup|rowgroup" style="color:White;">#</th>
+                          <th scope="col|row|colgroup|rowgroup" style="color:White;">Module Name</th>
+                          <th scope="col|row|colgroup|rowgroup" style="color:White;">Grade</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -293,12 +293,12 @@
           
                 <div class="col-md-6">
                         <h5>Semester 5</h5>
-                        <table class="table">
+                        <table class="table"> <!-- k -->
                           <thead>
                             <tr class="bg-primary">
-                              <th style="color:White;">#</th>
-                              <th style="color:White;">Module Name</th>
-                              <th style="color:White;">Grade</th>
+                              <th scope="col|row|colgroup|rowgroup" style="color:White;">#</th>
+                              <th scope="col|row|colgroup|rowgroup" style="color:White;">Module Name</th>
+                              <th scope="col|row|colgroup|rowgroup" style="color:White;">Grade</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -347,12 +347,12 @@
                 </div>
                       <div class="col-md-6">
                           <h5>Semester 4</h5>
-                          <table class="table">
+                          <table class="table"> <!-- l -->
                             <thead>
-                                <tr class="bg-primary">
-                                <th style="color:White;">#</th>
-                                <th style="color:White;">Module Name</th>
-                                <th style="color:White;">Grade</th>
+                                <th scope="col|row|colgroup|rowgroup" class="bg-primary">
+                                <th scope="col|row|colgroup|rowgroup" style="color:White;">#</th>
+                                <th scope="col|row|colgroup|rowgroup" style="color:White;">Module Name</th>
+                                <th scope="col|row|colgroup|rowgroup" style="color:White;">Grade</th>
                               </tr>
                             </thead>
                             <tbody>
@@ -391,12 +391,12 @@
                       </div>
                       <div class="col-md-6">
                           <h5>Semester 3</h5>
-                          <table class="table">
+                          <table class="table"> <!-- k -->
                             <thead>
                                <tr class="bg-primary">
-                                <th style="color:White;">#</th>
-                                <th style="color:White;">Module Name</th>
-                                <th style="color:White;">Grade</th>
+                                <th scope="col|row|colgroup|rowgroup" style="color:White;">#</th>
+                                <th scope="col|row|colgroup|rowgroup" style="color:White;">Module Name</th>
+                                <th scope="col|row|colgroup|rowgroup" style="color:White;">Grade</th>
                               </tr>
                             </thead>
                             <tbody>
