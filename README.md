@@ -130,7 +130,7 @@ For the development of the application we used the following technologies.
   </body>
 </html>
 ```
-### Script to search on internet for crime data and colect raw data and store in Realtime Database
+### Script to search on internet for crime data and colect raw data and store in Realtime Database  
 ```code
 from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
