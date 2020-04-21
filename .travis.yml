@@ -1,0 +1,20 @@
+language: python
+python:
+  - "3.6"
+cache: pip
+install:
+  - pip install -r requirements.txt
+script:
+  - python scripts/searchandscrape.py
+  - python scripts/UploadToRealtimePy.py
+  
+deploy:
+  provider: gcs
+  access_key_id: ${access_key_id}
+  secret_access_key: ${secret_access_key}
+  bucket: culi-data-loc
+  cache_control: "no-cache"
+  local-dir: sourcecode
+  on:
+    all_branches: true
+    repo: ITT-Projects/Google-Maps-Safest-Route

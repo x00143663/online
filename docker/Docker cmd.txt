@@ -1,0 +1,13 @@
+docker build -t c .
+
+docker run -d -p 80:80 c
+
+docker ps -a
+
+docker stop xxxxxxxxxx
+
+docker rm xxxxxxxxx
+
+docker images
+
+docker rmi c
