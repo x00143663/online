@@ -61,7 +61,7 @@ deploy:
     repo: ITT-Projects/Google-Maps-Safest-Route
  ```
 
-- [Find out more about Travis](https://travis-ci.org/)
+- [Find out more about Travis](https://travis-ci.org/)  
 
 ### Architecture
 ![Architectue](docs/diagram.PNG)
