@@ -21,7 +21,7 @@ print (url)
 
 
 for my_url in url:
-    try:
+   
         uClient = uReq(my_url)
         page_html = uClient.read()
         uClient.close()
@@ -43,9 +43,6 @@ for my_url in url:
         result = firebase.post('/articles/', data )
 
 
-    except:
-        pass
 
 
-#result2 = firebase.get('/articles/', '')
-#print(result2)
+
