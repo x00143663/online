@@ -1,0 +1,151 @@
+body
+{
+    background: #acd7ff;
+    font-family: sans-serif;
+}
+
+#Header a:hover
+{
+color: #c078fc;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+#About
+{
+margin-top: -200px;
+}
+
+#About .fa
+{
+    color: #FFF;
+}
+#About .fa:hover
+{
+    color: blueviolet;
+}
+#About span
+{
+    padding: 10px 20px 10px 20px;
+}
+
+#About hr
+{
+    border-width: 2px;
+    margin-top: 06px;
+}
+
+#Skills hr
+{
+    border-width: 2px;
+    margin-top: 06px; 
+}
+
+#Education span
+{
+    padding: 10px 20px 10px 20px; 
+}
+
+#Education hr
+{
+    border-width: 2px;
+    margin-top: 06px;   
+}
+
+#Education .card
+{
+    border-top: 03px solid #92f097
+}
+
+#Experience span
+{
+    padding: 10px 20px 10px 20px; 
+}
+
+#Experience hr
+{
+    border-width: 2px;
+    margin-top: 06px;   
+}
+
+#Experience .card
+{
+    border-top: 03px solid #ffc107
+}
+
+#Projects span
+{
+    padding: 10px 20px 10px 20px;   
+}
+
+#projects hr
+{
+    border-width: 2px;
+    margin-top: 06px;   
+}
+
+#Contact span
+{
+    padding: 10px 20px 10px 20px;   
+}
+
+#Contact hr
+{
+    border-width: 2px;
+    margin-top: 06px;   
+}
+
+#Resources span
+{
+    padding: 10px 20px 10px 20px;   
+}
+
+#Resources hr
+{
+    border-width: 2px;
+    margin-top: 06px;   
+}
+
+#more {display: none;}
+#more1 {display: none;}
+
+#ibm
+{
+    background-image:"img/ibm.jpg" ; 
+     width:"200" ;
+     height:"80";
+      
+}
+
+    @keyframes bounceIn { 
+    0% { transform: scale(0.1); opacity: 0; } 
+    60% { transform: scale(1.2); opacity: 1; } 
+    100% { transform: scale(1); } 
+    }
+    /* Chrome, Safari, Opera */ 
+    @-webkit-keyframes bounceIn {
+    0% { transform: scale(0.1); opacity: 0; } 
+    60% { transform: scale(1.2); opacity: 1; } 
+    100% { transform: scale(1); } 
+    }
+    
+    #name {
+        
+        animation: bounceIn 2s 3;
+        -webkit-animation: bounceIn 2s 3; /*Chrome, Safari, Opera*/
+    }
+
+    #name1 {
+        
+        animation: bounceIn 2s infinite;
+        -webkit-animation: bounceIn 2s infinite; /*Chrome, Safari, Opera*/
+    }
+    
+
+
+
+    
